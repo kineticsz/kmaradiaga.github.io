@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'abel';
+    src: url('../font/abel/abel-regular-webfont.woff2') format('woff2'),
+         url('../font/abel/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+  color: #2B2F99;
+}
+
+a:visited {
+  color: #2B2F99;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #ADDBFF;
+  font-family: 'abel';	
+  text-align: center;
+  color: #2B2F99;
+  margin: 0;
+  padding: 2%;
+}
+
+.navbar-default {
+  background-color: #FFB16E;
+  padding: 0.25%;
+}
+
+#resume-button {
+  background-image: url('../img/resume-button.png');
+  background-color: #FFB16E;
+  width: 107px; 
+  height: 75px;
+  border: none;
+}
+
+#linkedin-button {
+  background-image: url('../img/linkedin-button.png');
+  background-color: #FFB16E;
+  width: 107px; 
+  height: 75px;
+  border: none;
+}
+
+#email-button {
+  background-image: url('../img/email-button.png');
+  background-color: #FFB16E;
+  width: 107px; 
+  height: 75px;
+  border: none;
+}
+
+#email-modal {
+  color: #000000;
+}
+
+#nyprofile {
+  width: 100%;
+  height: auto;
+}
+
+#about {
+  background-color: #CC9276;
+  font-family: 'abel';
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 20%;
+}
+
+#portfolio-item {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 4%;
+}
+
+#rapereporting-page {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+#biketour-page {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+#resume-frame {
+  text-align: center;
+  width: 75%;
+  height: 800px;
+  margin-left: 12%;
+  border: none;
+  padding: 1%;
+}
+
+body {
+  font-family: 'abel';
+  background-color: #B3B8FF;
+  color: #fff;
+}
